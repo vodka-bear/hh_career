@@ -1,0 +1,21 @@
+# Скопируйте в config.yaml рядом с этим файлом.
+# Запуск: python -m hh_career --config config.yaml --cookies cookies.txt
+poll_interval_minutes: 5
+min_match_percent: 70
+request_delay_seconds: 2
+http_timeout_seconds: 30
+# Адрес сайта. Для регионального поддомена укажите его явно,
+# например https://krasnoyarsk.hh.ru, чтобы не ловить редирект с hh.ru.
+hh_base_url: https://hh.ru
+database_path: data/hh.sqlite
+filters_path: filters.yaml
+
+# OpenAI-совместимый endpoint. Для Grok: https://api.x.ai/v1 и модель grok-4.3.
+openai:
+  base_url: https://api.x.ai/v1
+  model: grok-4.3
+  temperature: 0.2
+
+# Секреты читаются из окружения или .env:
+# OPENAI_API_KEY или XAI_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+# Cookies: --cookies cookies.txt или переменная HH_COOKIES

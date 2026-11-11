@@ -1,0 +1,70 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Типы / линтеры
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+config.yaml
+filters.yaml
+cookies.txt
+cookie.txt
+*.cookies
+
+# Данные и БД
+data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Логи и временные файлы
+*.log
+tmp/
+temp/
+*.tmp

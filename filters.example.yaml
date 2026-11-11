@@ -1,0 +1,7 @@
+# Скопируйте в filters.yaml. URL можно взять из адресной строки поиска hh.ru.
+# pages — сколько первых страниц обходить. Нумерация на сайте с нуля:
+# pages: 2 означает page=0 и page=1.
+searches:
+  - name: python-backend
+    url: "https://hh.ru/search/vacancy?text=Python+backend&area=1&schedule=remote&experience=between3And6&order_by=publication_time&search_period=1"
+    pages: 1
